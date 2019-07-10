@@ -1,0 +1,69 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box; /*声明c3新盒模型*/
+}
+body {
+    background-color: #ccffff;
+    font: normal  400  14px/1.5 "微软雅黑","Adobe 宋体 Std L","Adobe Arabic",sans-serif;
+}
+img{
+    display: block;
+}
+.a{
+    background-color: #00ccff;
+    color: red;
+    line-height: 32px;
+    text-align: center;
+    width: 246px;
+    height: 32px;
+    border-bottom:2px black dotted;
+
+}
+.b{
+    width: 246px;
+    height: 250px;
+
+}
+.c{
+    width: 250px;
+    height: 350px;
+    background-color: #ccffff;
+    border:2px black dotted;
+    display: block;
+    float: left;
+    margin-right: 18px;
+    margin-bottom: 5px;
+
+}
+.d {
+    background-color: #00ccff;
+    color: blue;
+    font-size: 22px;
+    line-height: 64px;
+    text-align: right;
+    width: 246px;
+    height: 64px;
+    position: relative;
+}
+.e{
+    width: 64px;
+    height: 64px;
+
+}
+.f{
+    width: 64px;
+    height: 32px;
+    float:left ;
+    position: absolute;
+    left: 120px;
+    top: 20px;
+}
+.g{
+    width: 46px;
+    height: 30px;
+    position: absolute;
+    left: 196px;
+    top: 4px;
+
+}

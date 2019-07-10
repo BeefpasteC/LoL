@@ -1,0 +1,42 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="{% static "css/index.css" %}">
+</head>
+<body>
+
+
+{% for line in dicts.student %}
+<div class="c">
+    <div >
+        <img src="{{ line.p }}" class="b" >
+    </div>
+
+    <div class="a">
+        <p style="font-size: 22px">{{ line.name }}</p>
+    </div>
+
+    <div class="d">
+        <div >
+            <img src="{{ line.头像 }}" class="e" >
+        </div>
+
+        <div >
+            <img src="{{ line.技能 }}" class="f" >
+        </div>
+        <div class="g">
+            {{ line.加载 }}
+        </div>
+
+
+    </div>
+
+
+</div>
+{% endfor %}
+
+</body>
+</html>
